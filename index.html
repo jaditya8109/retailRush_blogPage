@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Blogs page</title>
-    <link rel="stylesheet"
-          id="theme_link"
-          href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/materia/bootstrap.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="navbar-fixed-left.min.css">
     <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -18,8 +18,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-left">
-        <a class="navbar-brand" href>Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-left" style=" background-image: linear-gradient(#0C87F2, #075191);">
+       
+        <a class="navbar-brand" href="index.html">Retail Rush</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                 aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link">Blog page</a>
+                    <a class="nav-link" href="singleBlog.html">Blog page</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="whyChooseUs.html">Why choose us page</a>
@@ -40,63 +41,86 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="container col-md-9 col-12" style="padding-left: 3vw;">
-            <!-- <div class="jumbotron"> -->
-                <div class="row" style="margin-bottom: 10vh;">
-                    <div class="col-4">
-                        <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
+    <div class="container-fluid">
+        <div class="row" >
+            <div class="container-fluid col-md-9 col-12" style="padding-left: 3vw; padding-top: 10vh;" >
+                <!-- <div class="jumbotron"> -->
+                    <div class="row" style="margin-bottom: 10vh;">
+                        <div class="col-4">
+                            <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
+                        </div>
+                        <div class="col-8">
+                            <h2>A Loving Heart is the Truest Wisdom</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <p>
+                                <span><i class="icon-calendar mr-2">22 June 2020</i></span>
+                                <span><i class="icon-folder-o mr-2">Washing machine</i></span>
+                                <span><i class="icon-folder-o mr-2">Washing machine</i></span>
+                            </p>
+                            <a href="singleBlog.html"><button >Read More..</button></a>
+                        </div>
                     </div>
-                    <div class="col-8">
-                        <h2>A Loving Heart is the Truest Wisdom</h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        <p>
-                            <span><i class="icon-calendar mr-2">22 June 2020</i></span>
-                            <span><i class="icon-folder-o mr-2">Washing machine</i></span>
-                            <span><i class="icon-folder-o mr-2">Washing machine</i></span>
-                        </p>
-                        <button>Read More..</button>
+            
+                    <div class="row" style="margin-bottom: 10vh;" >
+                        <div class="col-8">
+                            <h2>A Loving Heart is the Truest Wisdom</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html"><button >Read More..</button></a>
+                        </div>
+                        <div class="col-4">
+                            <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
+                        </div>
                     </div>
+            
+                    <div class="row" style="margin-bottom: 10vh;">
+                        <div class="col-4">
+                            <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
+                        </div>
+                        <div class="col-8">
+                            <h2>A Loving Heart is the Truest Wisdom</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html"><button >Read More..</button></a>
+                        </div>
+                    </div>
+            
+                    <div class="row" style="margin-bottom: 10vh;">
+                        <div class="col-8">
+                            <h2>A Loving Heart is the Truest Wisdom</h2>
+                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html"><button >Read More..</button></a>
+                        </div>
+                        <div class="col-4">
+                            <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
+                        </div>
+                    <!-- </div> -->
                 </div>
-        
-                <div class="row" style="margin-bottom: 10vh;">
-                    <div class="col-8">
-                        <h2>A Loving Heart is the Truest Wisdom</h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        <button>Read More..</button>
-                    </div>
-                    <div class="col-4">
-                        <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
-                    </div>
-                </div>
-        
-                <div class="row" style="margin-bottom: 10vh;">
-                    <div class="col-4">
-                        <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
-                    </div>
-                    <div class="col-8">
-                        <h2>A Loving Heart is the Truest Wisdom</h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        <button>Read More..</button>
-                    </div>
-                </div>
-        
-                <div class="row" style="margin-bottom: 10vh;">
-                    <div class="col-8">
-                        <h2>A Loving Heart is the Truest Wisdom</h2>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                        <button>Read More..</button>
-                    </div>
-                    <div class="col-4">
-                        <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
-                    </div>
-                <!-- </div> -->
             </div>
-        </div>
+    
+            <div class="container-fluid col-md-3 col-0" style="background-color: #D0E5F2;">
+                <div class="single category">
+                    <h3 class="side-title">Category</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="" title="">Refrigerator <span class="pull-right">5</span></a></li>
+                        <li><a href="" title="">Coolers <span class="pull-right">7</span></a></li>
+                        <li><a href="" title="">Acs <span class="pull-right">2</span></a></li>
+                        <li><a href="" title="">Mobiles <span class="pull-right">4</span></a></li>
+                        <li><a href="" title="">Washing machine <span class="pull-right">13</span></a></li>
+                        <li><a href="" title="">Televisions <span class="pull-right">13</span></a></li>
+                        <li><a href="" title="">Home Appliances<span class="pull-right">13</span></a></li>
+                    </ul>
+               </div>
 
-        <div class="container col-md-3 col-0">
-            <div class="jumbotron">
-
+                    <h3 class="text-center" style="padding-top: 3vh;">Subscribe to Blogs</h3>
+                    <hr class="my-4">
+                    <form style="padding-bottom: 3vh;">
+                        <div class="input-group">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                          <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                        </div>
+                      </form>
+                    <p class="lead text-center">
+                        <a class="btn btn-primary" href="#" role="button">Submit</a>
+                    </p>
             </div>
         </div>
     </div>
