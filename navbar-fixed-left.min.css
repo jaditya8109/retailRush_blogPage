@@ -78,4 +78,19 @@ body{padding-top:90px}@media (min-width:768px){body{padding-top:0}}@media (min-w
         font-size: 1.15em;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    #indexNav{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .index-nav-ul{
+        margin-top: 7vh;
+        text-align: center;
+        font-size: 1.25em;
+    }
+}
+  
       
