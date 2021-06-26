@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="navbar-fixed-left.min.css">
     <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -18,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-left" style=" background-image: linear-gradient(#0C87F2, #075191);">
+    <nav id="indexNav" class="navbar navbar-expand-md navbar-dark fixed-left" style=" background-image: linear-gradient(#0C87F2, #075191);">
        
         <a class="navbar-brand" href="index.html">Retail Rush</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
@@ -43,57 +44,69 @@
 
     <div class="container-fluid">
         <div class="row" >
-            <div class="container-fluid col-md-9 col-12" style="padding-left: 3vw; padding-top: 10vh;" >
-                <!-- <div class="jumbotron"> -->
-                    <div class="row" style="margin-bottom: 10vh;">
-                        <div class="col-4">
+            <div class="container-fluid col-md-9 col-12 index-div-one" style="padding-left: 3vw;" >
+                    <div class="row justify-content-center align-items-center" style="margin-bottom: 10vh;">
+                        <div class="col-4 col-sm-3">
                             <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
                         </div>
-                        <div class="col-8">
-                            <h2>A Loving Heart is the Truest Wisdom</h2>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <p>
-                                <span><i class="icon-calendar mr-2">22 June 2020</i></span>
-                                <span><i class="icon-folder-o mr-2">Washing machine</i></span>
-                                <span><i class="icon-folder-o mr-2">Washing machine</i></span>
+                        <div class="col-7">
+                            <h2 class="mb-md-5 index-heading">A Loving Heart is the Truest Wisdom</h2>
+                            <p class="mb-md-5" id="IndexIcons">
+                                <span><i class="fa fa-calendar-o indexic"  aria-hidden="true"></i>22 June 2020</span>
+                                <span><i class="fa fa-folder-o indexic" aria-hidden="true"></i>About</span>
+                                <span><i class="fa fa-heart-o indexic" aria-hidden="true"></i>Likes</span>
                             </p>
-                            <a href="singleBlog.html"><button >Read More..</button></a>
+                            <p class="mb-md-5 indx-para">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html" class="index-readMore">Read More ></a>
                         </div>
                     </div>
             
-                    <div class="row" style="margin-bottom: 10vh;" >
-                        <div class="col-8">
-                            <h2>A Loving Heart is the Truest Wisdom</h2>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <a href="singleBlog.html"><button >Read More..</button></a>
+                    <div class="row justify-content-center align-items-center" style="margin-bottom: 10vh;">
+                        <div class="col-7">
+                            <h2 class="mb-md-5 index-heading">A Loving Heart is the Truest Wisdom</h2>
+                            <p class="mb-md-5" id="IndexIcons">
+                                <span><i class="fa fa-calendar-o indexic"  aria-hidden="true"></i>22 June 2020</span>
+                                <span><i class="fa fa-folder-o indexic" aria-hidden="true"></i>About</span>
+                                <span><i class="fa fa-heart-o indexic" aria-hidden="true"></i>Likes</span>
+                            </p>
+                            <p class="mb-md-5 indx-para">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html" class="index-readMore">Read More ></a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 col-sm-3">
                             <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
                         </div>
                     </div>
-            
-                    <div class="row" style="margin-bottom: 10vh;">
-                        <div class="col-4">
+                    <div class="row justify-content-center align-items-center" style="margin-bottom: 10vh;">
+                        <div class="col-4 col-sm-3">
                             <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
                         </div>
-                        <div class="col-8">
-                            <h2>A Loving Heart is the Truest Wisdom</h2>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <a href="singleBlog.html"><button >Read More..</button></a>
+                        <div class="col-7">
+                            <h2 class="mb-md-5 index-heading">A Loving Heart is the Truest Wisdom</h2>
+                            <p class="mb-md-5" id="IndexIcons">
+                                <span><i class="fa fa-calendar-o indexic"  aria-hidden="true"></i>22 June 2020</span>
+                                <span><i class="fa fa-folder-o indexic" aria-hidden="true"></i>About</span>
+                                <span><i class="fa fa-heart-o indexic" aria-hidden="true"></i>Likes</span>
+                            </p>
+                            <p class="mb-md-5 indx-para">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html" class="index-readMore">Read More ></a>
                         </div>
                     </div>
             
-                    <div class="row" style="margin-bottom: 10vh;">
-                        <div class="col-8">
-                            <h2>A Loving Heart is the Truest Wisdom</h2>
-                            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                            <a href="singleBlog.html"><button >Read More..</button></a>
+                    <div class="row justify-content-center align-items-center" style="margin-bottom: 10vh;">
+                        <div class="col-7">
+                            <h2 class="mb-md-5 index-heading">A Loving Heart is the Truest Wisdom</h2>
+                            <p class="mb-md-5" id="IndexIcons">
+                                <span><i class="fa fa-calendar-o indexic"  aria-hidden="true"></i>22 June 2020</span>
+                                <span><i class="fa fa-folder-o indexic" aria-hidden="true"></i>About</span>
+                                <span><i class="fa fa-heart-o indexic" aria-hidden="true"></i>Likes</span>
+                            </p>
+                            <p class="mb-md-5 indx-para">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                            <a href="singleBlog.html" class="index-readMore">Read More ></a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 col-sm-3">
                             <img src="./assets/cooler.png" style="max-width: 100%; border-radius: 50%;">
                         </div>
-                    <!-- </div> -->
-                </div>
+                    </div>
             </div>
     
             <div class="container-fluid col-md-3 col-0" style="background-color: #D0E5F2;">

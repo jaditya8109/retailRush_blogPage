@@ -35,3 +35,47 @@ body{padding-top:90px}@media (min-width:768px){body{padding-top:0}}@media (min-w
     color: #ff173c; }
     .single li:last-child a {
     border-bottom: 0; }
+
+.index-div-one{
+    padding-top: 10vh;
+}
+
+#IndexIcons{
+    font-size: medium;
+}
+
+.indexic{
+    margin-right: 0.25em;
+    margin-left: 0.5em;
+}
+
+.indx-para{
+    font-size: 1.25em;
+}
+
+.index-readMore{
+    font-size: medium;
+    color: #0C87F2;
+}
+
+@media only screen and (max-width: 600px) {
+    .index-div-one{
+        padding-top: 5vh;
+    }
+    #indexNav{
+        display: none;
+    }
+    .indx-para{
+        font-size: 1.15em;
+    }
+    .index-heading{
+        font-size: 2em;
+    }
+    #IndexIcons{
+        font-size: 1.15em;
+    }
+    .index-readMore{
+        font-size: 1.15em;
+    }
+}
+      

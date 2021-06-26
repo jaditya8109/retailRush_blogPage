@@ -1,0 +1,98 @@
+//Responsive Nav Bar
+
+-> <nav class="navbar navbar-light bg-light navbar-expand-lg"> : class navbar only lets bootstrap style nav element
+                                                                navbar-light gives light color to content text
+                                                                bg-light gives light background to nav
+                                                                navbar-expand will enable the elements to visible in horizontal navbar till that
+                                                                breakdown screen size and for rest other screen size elements will go in toggle
+
+-> .navbar-brand : style and position content on top left corner of navbar. (used to place brand name or image)
+
+-> <ul class="navbar-nav ml-auto"> : holds actuall menu items, positions at right
+                                     ml-auto (or mr-auto) gives margin to left automatically and hence elemnets are shifted to right side of 
+                                     nav except for brand element and vicea versa for mr-auto
+
+-> <li class="nav-item"> : nav items
+
+-> <a class="nav-link"> : nav links 
+
+-> <div class="collapse navbar-collapse"> : put ul and li elements in it and all elements will be visible only when u click dropdown 
+                                            for mobile view
+
+-> <button class="navbar-toggler"> <span class="navbar-toggler-icon> : brings toggle button (add this line after brand element and before div
+                                                                        class collapse)
+
+-> <button class="navbar-toggle" data-toggle="collapse"> : later property to make toggle button working and clickable (add bootstrap jquery file)
+                                data target="#id of div with ul and li" 
+
+-> Reference nav bar :
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                        <a href="#" class="navbar-brand"><img src="svg/STC.svg" alt="STC logo" ></a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbaritems">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbaritems">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+
+
+//Bootstrap Grid
+
+-> It uses flex box hence all flex box properties are applied.
+
+-> div class = cotainer
+        div class = row
+            div class = coloumn
+
+        div class = row
+
+-> md - medium
+   lg - large
+   xl - extra large
+   sm - tablet
+   xs - mobile
+
+-> HORIZONTAL ALIGNMENT
+    row justify-content-center : Brings everything in center
+        justify-content-end    : align content at the end
+        justify-content-around : space in left, right, and in between columns
+        justify-content-between: all available space between the columns
+
+-> VERTICAL ALIGNMENT
+    row align-items-start  : from the startof column to needed height
+        align-items-center : in the center vertically
+    
+    col align-self-start   : applyied to particular columns           
+
+-> OFFSET
+    pushes the content towards right leaving space in the left side. 
+    applied in column
+    offset-md-2
+    offset-2
+
+
+
+//Search engine optimisation for web
+
+1. Proper Title
+2. Description using meta tar
+3. URL
+4. Meta keywords and other inbuilt meta tags
+5. Favicon
+6. Compressed images
+7. Attributes or alt of img
+8. Mobile friendly
+9. Compressed/miniify html, css, js
+10. Keyword usage in content
